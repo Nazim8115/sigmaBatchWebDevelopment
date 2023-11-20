@@ -3,19 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Meadia Application</title>
     <style>
       .audio {
         display: flex;
         flex-direction: row;
         -ms-flex-item-align: auto;
       }
+      .video {
+        margin: 10px;
+      }
     </style>
   </head>
   <body>
-    <h1 style="background-color: powderblue; text-align: center">
-      Audio Files
-    </h1>
+    <header>
+      <h1 style="background-color: powderblue; text-align: center">
+        Audio Files
+      </h1>
+    </header>
 
     <div class="audio">
       <audio controls>
@@ -37,6 +42,14 @@
       <audio controls>
         <source src="./assests/Audio/audio-1.mp3" type="audio/mpeg" />
       </audio>
+    </div>
+    <div class="video">
+      <video controls src="/assests/best.mp4" width="200"></video>
+      <video controls src="/assests/best.mp4" width="200"></video>
+      <video controls src="/assests/best.mp4" width="200"></video>
+      <video controls src="/assests/best.mp4" width="200"></video>
+      <video controls src="/assests/best.mp4" width="200"></video>
+      <video controls src="/assests/best.mp4" width="200"></video>
     </div>
   </body>
 </html>
